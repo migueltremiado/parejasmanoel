@@ -1,0 +1,36 @@
+@import url("style.css");
+
+section {
+  flex-basis: 33%;
+}
+address {
+  font-style: normal;
+}
+address > a {
+  font-size: 1.5rem;
+  width: fit-content;
+  background: none;
+  color: black;
+  padding: 0%;
+  text-align: center;
+  margin-left: auto;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+main section:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+main section:first-child figure img {
+  border-radius: 50%;
+  border: 0.5rem solid black;
+}
+main ul {
+  margin-left: 1.2rem;
+}
+main > header {
+  margin-bottom: 3rem;
+}
